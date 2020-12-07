@@ -25,6 +25,7 @@ public class ClientApplication {
 	@GetMapping("/getClient")
 	public String getClient() {
 		
+		//
 		String input="heloo";
 				
 		RestTemplate restTemplate = new RestTemplate();
